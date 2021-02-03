@@ -1,0 +1,8 @@
+.header-container {
+  text-align: center;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.contact-deet {
+  margin: 0;
+}

@@ -1,0 +1,8 @@
+.history-container {
+  display: grid;
+  margin: auto;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-row: repeat(4, 1fr);
+  grid-area: 2 / 2 / 2 / 2;
+}
