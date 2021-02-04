@@ -8,7 +8,13 @@
   grid-row: auto;
 }
 
+.project-name {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
 .project-deets {
+  margin: 0;
   grid-area: 1/ 1 / 2 / 1;
 }
 
@@ -24,5 +30,5 @@
   width: 100%;
   grid-template-columns: auto;
   grid-row: repeat(4, 1fr);
-  grid-area: 2 / 1 / 2 / 2;
+  grid-area: 2 / 2 / 2 / 2;
 }

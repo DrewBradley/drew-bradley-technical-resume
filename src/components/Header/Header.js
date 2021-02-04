@@ -5,8 +5,10 @@ import './Header.css'
 const Header = () => {
   return(
     <header className="header-container">
-      <h1>Drew Bradley</h1>
-      <h3>Software Developer</h3>
+      <div className="title">
+        <h1>Drew Bradley</h1>
+        <h3>Software Developer</h3>
+      </div>
       <Contact />
     </header>
   )
