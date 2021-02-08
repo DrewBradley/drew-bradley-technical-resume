@@ -8,8 +8,11 @@ const History = () => {
     return <Workplace key={place.id} place={place} />
   })
   return(
-    <div className="history-container">
-      { workHistory }
+    <div>
+      <h1>Work History</h1>
+      <div className="history-container">
+        { workHistory }
+      </div>
     </div>
   )
 }

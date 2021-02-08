@@ -6,6 +6,7 @@ const ProjectContainer = () => {
   // map over project data
   return(
     <div className="project-container">
+      <h1>Projects</h1>
       <Project />
       <Project />
       <Project />

@@ -1,11 +1,12 @@
 import React from "react"
 
-const Education = () => {
+
+const Education = (props) => {
   return(
     <div className="school">
-      <h2 className="school-name">Turing School</h2>
-      <p className="school-dates">08/20 - 04/21</p>
-      <p className="school-details">Studied front end engineering!</p>
+      <h2 className="school-name">{props.data.name}</h2>
+      <p className="school-dates">{props.data.date}</p>
+      <p className="school-details">{props.data.detail}</p>
     </div>
   )
 }

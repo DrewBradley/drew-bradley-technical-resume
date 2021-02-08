@@ -1,8 +1,9 @@
 import React from "react"
 
-const Tech = () => {
+const Tech = (props) => {
+  console.log(props)
   return(
-      <h2 className="tech-name">Technology</h2>
+      <h2 className="tech-name">{props.name}</h2>
   )
 }
 
