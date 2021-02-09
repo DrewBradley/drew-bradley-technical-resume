@@ -4,5 +4,4 @@
   width: 100%;
   grid-template-columns: auto;
   grid-row: repeat(4, 1fr);
-  grid-area: 3 / 2 / 3 / 2;
 }

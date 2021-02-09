@@ -1,7 +1,8 @@
 .App {
+  height: 100vh;
   display: grid;
-  grid-template-columns: 30% 70%;
-  grid-row: 20% 40% 40%;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 30% 60% 10%;
   margin: auto;
   width: 60%;
 }

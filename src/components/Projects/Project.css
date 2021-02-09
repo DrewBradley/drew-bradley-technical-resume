@@ -1,34 +1,37 @@
 .project {
   text-align: left;
-  margin: 2%;
+  margin: 1%;
   padding: 1%;
   border: black 1px solid;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-row: auto;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 60% 20%;
 }
 
 .project-name {
   margin: 0;
   font-size: 1.5rem;
+  grid-area: 1 / 1 / 2 / 3;
 }
 
 .project-deets {
   margin: 0;
-  grid-area: 1/ 1 / 2 / 1;
+  grid-area: 2/ 1 / 2 / 3;
 }
 
-.project-pic {
+.project-links {
+  display: flex;
+  justify-content: space-around;
   margin: auto;
-  width: 45%;
-  grid-area: 1/ 2 / 2 / 2;
+  width: 100%;
+  grid-area: 3 / 1 / 4 / 3;
 }
 
 .project-container {
+  border: solid 1px black;
   display: grid;
   margin: auto;
   width: 100%;
   grid-template-columns: auto;
   grid-row: repeat(4, 1fr);
-  grid-area: 2 / 2 / 2 / 2;
 }

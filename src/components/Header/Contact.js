@@ -1,12 +1,14 @@
 import React from "react"
+import { contactInfo } from '../../resume-data'
 
 const Contact = () => {
+  const data = contactInfo[0]
   return(
     <section className="contact">
-      <p className="contact-deet">email: williamandrewb@gmail.com</p>
-      <p className="contact-deet">phone: 970-778-5061</p>
-      <p className="contact-deet">github: github.com/DrewBradley</p>
-      <p className="contact-deet">linkedin: www.linkedin.com/in/drew-bradley-46a80918b/</p>
+      <p className="contact-deet"><a href={data.email}>{`${data.email}`}</a></p>
+      <p className="contact-deet">{`${data.phone}`}</p>
+      <p className="contact-deet"><a href={data.github} target="_blank">GitHub</a></p>
+      <p className="contact-deet"><a href={data.linkedin} target="_blank" >LinkedIn</a></p>
     </section>
   )
 }

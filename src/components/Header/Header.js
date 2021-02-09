@@ -1,5 +1,6 @@
 import React from "react"
 import Contact from "./Contact"
+import NavBar from "./NavBar"
 import './Header.css'
 
 const Header = () => {
@@ -10,6 +11,7 @@ const Header = () => {
         <h3>Software Developer</h3>
       </div>
       <Contact />
+      <NavBar />
     </header>
   )
 }
