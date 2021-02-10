@@ -25,7 +25,6 @@
 
 .project-deets {
   grid-area: 1 / 2 / 3 / 3;
-  font-size: 1.25rem;
   margin: 1%;
   display: flex;
   flex-direction: column;
@@ -38,7 +37,7 @@
 
 .project-gif-container {
   text-align: center;
-  height: 250px;
+  height: 15rem;
   grid-area: 1 / 1 / 4 / 2;
   overflow: hidden;
 }

@@ -59,11 +59,7 @@ const projectData = [
   {id: 3,
   name: "Star Wars Gifs",
   description: "These are not the gifs you're looking for. Or are they? This app was built with React and pulled information from 'swapi', the Star Wars API, and the GIPHY API. I was able to explore React component lifecycles in order to render a 'gif' that relates to a given Star Wars character.",
-  deployed: "https://drewbradley.github.io/star-wars-gifs/", github: "https://github.com/DrewBradley/star-wars-gifs", gif: "https://media.giphy.com/media/oRN4jLMJjHdSt4Gc5U/giphy.gif"},
-  {id: 4,
-  name: "Songwriter App",
-  description: "Using vanilla javascript, this application allows users to generate a chord progression. Users can select a key and mode from the drop down menus. Users can also listen to the chords by pressing and holding the chord display. This was one of my first self-guided projects, and was completed in about 4 days.",
-  deployed: "https://drewbradley.github.io/SongwriterApp/", github: "https://github.com/DrewBradley/SongwriterApp", gif: "https://media.giphy.com/media/2yAweEYAY9nr3Ajaw0/giphy.gif"}
+  deployed: "https://drewbradley.github.io/star-wars-gifs/", github: "https://github.com/DrewBradley/star-wars-gifs", gif: "https://media.giphy.com/media/oRN4jLMJjHdSt4Gc5U/giphy.gif"}
 ]
 
 const workData = [
