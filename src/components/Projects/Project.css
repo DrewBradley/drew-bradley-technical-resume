@@ -4,19 +4,33 @@
   padding: 1%;
   border: black 1px solid;
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 20% 60% 20%;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 60% 40%;
 }
 
 .project-name {
+  text-align: center;
   margin: 0;
   font-size: 1.5rem;
-  grid-area: 1 / 1 / 2 / 3;
 }
 
 .project-deets {
-  margin: 0;
-  grid-area: 2/ 1 / 2 / 3;
+  grid-area: 1 / 2 / 3 / 3;
+  font-size: 1.25rem;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-gif {
+  box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.5);
+  height: 350px;
+}
+
+.project-gif-container {
+  height: 350px;
+  grid-area: 1 / 1 / 4 / 3;
+  
 }
 
 .project-links {
@@ -24,7 +38,7 @@
   justify-content: space-around;
   margin: auto;
   width: 100%;
-  grid-area: 3 / 1 / 4 / 3;
+  grid-area: 2 / 2 / 3 / 3;
 }
 
 .project-container {

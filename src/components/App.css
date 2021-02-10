@@ -6,3 +6,12 @@
   margin: auto;
   width: 60%;
 }
+
+.title {
+  text-align: center;
+}
+
+.title-name {
+  font-size: 3rem;
+  margin: 0;
+}

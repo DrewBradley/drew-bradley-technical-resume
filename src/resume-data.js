@@ -50,19 +50,20 @@ const projectData = [
   {id: 1,
   name: "Songwriter App",
   description: "Using vanilla javascript, this application allows users to generate a chord progression. Users can select a key and mode from the drop down menus. Users can also listen to the chords by pressing and holding the chord display. This was one of my first self-guided projects, and was completed in about 4 days.",
-  deployed: "https://drewbradley.github.io/SongwriterApp/", github: "https://github.com/DrewBradley/SongwriterApp"},
+  deployed: "https://drewbradley.github.io/SongwriterApp/", github: "https://github.com/DrewBradley/SongwriterApp",
+  gif: "https://media.giphy.com/media/TM8frZhZYu7Is9p7JL/giphy.gif"},
   {id: 2,
   name: "My Record Shelf",
   description: "I love records, so I built this application to show my love! Using React I built this app in under 48 hours. I made calls to the Discogs API, where a catalogue of my record collect is stored, then used conditional rendering to display 50 albums at a time. This project taught me how to navigate difficult APIs and use authentication to access the data I needed.",
-  deployed: "https://drewbradley.github.io/record-shelf/", github: "https://github.com/DrewBradley/record-shelf"},
+  deployed: "https://drewbradley.github.io/record-shelf/", github: "https://github.com/DrewBradley/record-shelf", gif: "https://media.giphy.com/media/XfaOnpl2BNCH4EQaV7/giphy.gif"},
   {id: 3,
   name: "Star Wars Gifs",
   description: "These are not the gifs you're looking for. Or are they? This app was built with React and pulled information from 'swapi', the Star Wars API, and the GIPHY API. I was able to explore React component lifecycles in order to render a 'gif' that relates to a given Star Wars character.",
-  deployed: "https://drewbradley.github.io/star-wars-gifs/", github: "https://github.com/DrewBradley/star-wars-gifs"},
+  deployed: "https://drewbradley.github.io/star-wars-gifs/", github: "https://github.com/DrewBradley/star-wars-gifs", gif: "https://media.giphy.com/media/oRN4jLMJjHdSt4Gc5U/giphy.gif"},
   {id: 4,
   name: "Songwriter App",
   description: "Using vanilla javascript, this application allows users to generate a chord progression. Users can select a key and mode from the drop down menus. Users can also listen to the chords by pressing and holding the chord display. This was one of my first self-guided projects, and was completed in about 4 days.",
-  deployed: "https://drewbradley.github.io/SongwriterApp/", github: "https://github.com/DrewBradley/SongwriterApp"}
+  deployed: "https://drewbradley.github.io/SongwriterApp/", github: "https://github.com/DrewBradley/SongwriterApp", gif: "https://media.giphy.com/media/2yAweEYAY9nr3Ajaw0/giphy.gif"}
 ]
 
 const workData = [

@@ -1,6 +1,5 @@
 import React from "react"
 import Workplace from "./Workplace"
-import historyData from "./history-data"
 import "./History.css"
 import { workData } from "../../resume-data"
 
