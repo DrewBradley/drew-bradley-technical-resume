@@ -8,7 +8,7 @@ const Project = (props) => {
     <div className="project">
         <a className="project-gif-container" href={props.data.deployed} target="_blank"> <img className="project-gif" src={props.data.gif} /></a>
       <div className="project-deets">
-        <h1 className="project-name">{props.data.name}</h1>
+        <p className="project-name">{props.data.name}</p>
         <p>{props.data.description}</p>
       </div>
       <div className="project-links">

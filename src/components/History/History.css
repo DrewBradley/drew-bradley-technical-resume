@@ -1,9 +1,7 @@
 .history-container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   margin: auto;
   width: 100%;
-  grid-template-columns: auto;
-  grid-row: repeat(4, 1fr);
-  background-color: #c1ebe3;
-  color: black;
+  background-color: rgb(172, 171, 171);
 }

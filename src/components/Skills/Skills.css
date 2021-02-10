@@ -1,8 +1,7 @@
 .skills {
   text-align: center;
-  background-color: #f4cdc9;
-  height: 70vh;
-  color:black;
+  background-color: rgb(210, 210, 210);
+  height: 75vh;
 }
 
 .tech-container {
@@ -11,9 +10,11 @@
   flex-direction: column;
   border: solid 1px black;
 }
+
 .tech-box {
   display: flex;
   justify-content: space-around;
+  padding: 1%;
 }
 
 .tech-name {
