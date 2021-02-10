@@ -51,3 +51,29 @@
   width: 100%;
   grid-area: 2 / 2 / 3 / 3;
 }
+
+@media screen and (max-width: 600px) {
+  .project {
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 80% 20%;
+  }
+
+  .project-gif {
+    height: 300px;
+    margin-top: -40px;
+  }
+
+  .project-gif-container {
+    height: 275px;
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .project-deets {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .project-links {
+    grid-area: 2 / 1 / 2 / 3;
+  }
+
+}

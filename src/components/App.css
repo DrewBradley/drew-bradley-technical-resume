@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 600px) {
   .App {
-    width: auto;
+    width: 100%;
+    grid-template-rows: 40% 60%;
   }
 }

@@ -59,7 +59,6 @@ a {
 .contact-deet {
   margin: 1%;
   padding: 2%;
-  font-size: 1.25rem;
   border-radius: 5px;
   transition: 200ms;
 }
@@ -67,4 +66,15 @@ a {
   background-color: rgb(210, 210, 210);
   box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
   transition: 200ms;
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-deet {
+    margin: 0%;
+    padding: 0%;
+  }
 }
