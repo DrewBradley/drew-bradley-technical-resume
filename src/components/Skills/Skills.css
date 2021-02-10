@@ -1,15 +1,16 @@
 .skills {
-  display: flex;
   text-align: center;
 }
 
 .tech-container {
   margin: 2%;
-  display: grid;
-  grid-template-columns: auto;
-  grid-row: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
   border: solid 1px black;
-  grid-area: 1 / 1 / 2 / 2;
+}
+.tech-box {
+  display: flex;
+  justify-content: space-around;
 }
 
 .tech-name {
@@ -17,11 +18,8 @@
   margin: 0 auto 0 5%;
 }
 
-.edu-container {
-  grid-area: 2 / 1 / 2 / 2;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 5% 45% 45%;
+.tech-logo {
+  height: 50px;
 }
 
 .school {

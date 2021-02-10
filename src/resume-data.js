@@ -1,3 +1,10 @@
+import git from "../src/components/Skills/logos/git-logo.webp"
+import html from "../src/components/Skills/logos/html-css-logo.png"
+import js from "../src/components/Skills/logos/js-logo.png"
+import chai from "../src/components/Skills/logos/mocha-chai-logo.png"
+import node from "../src/components/Skills/logos/nodejs-logo.png"
+import react from "../src/components/Skills/logos/react-logo.png"
+
 const contactInfo = [
   {email: "williamandrewb@gmail.com",
   phone: "970-778-5061",
@@ -20,17 +27,23 @@ const schoolData = [
 
 const techData = [
   {id: 1,
-  name: "JavaScript"},
+  name: "JavaScript",
+  img: js},
   {id: 2,
-  name: "HTML/CSS"},
+  name: "HTML/CSS",
+  img: html},
   {id: 3,
-  name: "React"},
+  name: "React",
+  img: react},
   {id: 4,
-  name: "Git"},
+  name: "Git",
+  img: git},
   {id: 5,
-  name: "NodeJS"},
+  name: "NodeJS",
+  img: node},
   {id: 6,
-  name: "Mocha & Chai"},
+  name: "Mocha & Chai",
+  img: chai},
 ]
 
 const projectData = [

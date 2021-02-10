@@ -11,10 +11,10 @@ const App = () => {
     <div className="App">
 
       <Header />
+      <Route path="/" exact component={ProjectContainer} />
       {/* <Route path="/" exact component={ App } /> */}
       <Route path="/skills" exact component={Skills} />
       <Route path="/history" exact component={History} />
-      <Route path="/projects" exact component={ProjectContainer} />
     </div>
   )
 }

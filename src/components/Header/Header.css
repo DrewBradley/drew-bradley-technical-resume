@@ -4,6 +4,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-image: url("../../clouds.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   grid-area: 1 / 1 / 2 / 3;
 }
 
@@ -14,16 +17,33 @@
   justify-content: space-around;
 }
 
+.contact {
+  background-color: antiquewhite;
+}
+
 .nav {
   text-decoration: none;
   padding: 2%;
   font-weight: 800;
   border: solid 1px antiquewhite;
+  border-radius: 10px;
   color: antiquewhite;
   background-color: rgb(9, 9, 62);
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5)
+  ;
+  transition: 200ms;
+}
+
+.nav:hover {
+  transition: 200ms;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.5)
+  ;
 }
 
 .contact-deet {
+  color: rgb(9, 9, 62);
+  text-decoration: none;
   text-align: center;
   margin: 1%;
 }

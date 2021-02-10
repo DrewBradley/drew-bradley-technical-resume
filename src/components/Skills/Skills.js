@@ -7,12 +7,14 @@ import { schoolData, techData } from "../../resume-data.js"
 
 const Skills = () => {
   const schools = schoolData.map(school => <Education  key={school.id} data={school} />)
-  const tech = techData.map(tech => <Technology  key={tech.id} name={tech.name} />)
+  const tech = techData.map(tech => <Technology  key={tech.id} name={tech.name} img={tech.img}/>)
   return(
     <section className="skills">
       <article className="tech-container">
         <h1>Technologies</h1>
-        { tech }
+        <div className="tech-box">
+          { tech }
+        </div>
       </article>
       <article className="edu-container">
       <h1>Education</h1>
