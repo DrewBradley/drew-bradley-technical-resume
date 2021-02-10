@@ -1,7 +1,8 @@
 .skills {
   text-align: center;
-  background-color: rgb(62, 14, 9);
+  background-color: #f4cdc9;
   height: 70vh;
+  color:black;
 }
 
 .tech-container {
