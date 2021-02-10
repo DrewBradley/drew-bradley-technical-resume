@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/drew-bradley-technical-resume/static/css/main.3e681dec.chunk.css",
+    "main.js": "/drew-bradley-technical-resume/static/js/main.8b6ed28e.chunk.js",
+    "main.js.map": "/drew-bradley-technical-resume/static/js/main.8b6ed28e.chunk.js.map",
+    "runtime-main.js": "/drew-bradley-technical-resume/static/js/runtime-main.8d8bad8e.js",
+    "runtime-main.js.map": "/drew-bradley-technical-resume/static/js/runtime-main.8d8bad8e.js.map",
+    "static/js/2.11ab6869.chunk.js": "/drew-bradley-technical-resume/static/js/2.11ab6869.chunk.js",
+    "static/js/2.11ab6869.chunk.js.map": "/drew-bradley-technical-resume/static/js/2.11ab6869.chunk.js.map",
+    "index.html": "/drew-bradley-technical-resume/index.html",
+    "static/css/main.3e681dec.chunk.css.map": "/drew-bradley-technical-resume/static/css/main.3e681dec.chunk.css.map",
+    "static/js/2.11ab6869.chunk.js.LICENSE.txt": "/drew-bradley-technical-resume/static/js/2.11ab6869.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/drew-bradley-technical-resume/static/media/clouds.6dd372cc.jpg",
+    "static/media/git-logo.32e1f69f.webp": "/drew-bradley-technical-resume/static/media/git-logo.32e1f69f.webp",
+    "static/media/html-css-logo.464892f8.png": "/drew-bradley-technical-resume/static/media/html-css-logo.464892f8.png",
+    "static/media/mocha-chai-logo.bc0b1926.png": "/drew-bradley-technical-resume/static/media/mocha-chai-logo.bc0b1926.png",
+    "static/media/nodejs-logo.8e341cc0.png": "/drew-bradley-technical-resume/static/media/nodejs-logo.8e341cc0.png",
+    "static/media/react-logo.34d51b59.png": "/drew-bradley-technical-resume/static/media/react-logo.34d51b59.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d8bad8e.js",
+    "static/js/2.11ab6869.chunk.js",
+    "static/css/main.3e681dec.chunk.css",
+    "static/js/main.8b6ed28e.chunk.js"
+  ]
+}
