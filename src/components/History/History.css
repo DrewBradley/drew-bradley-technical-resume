@@ -4,4 +4,5 @@
   width: 100%;
   grid-template-columns: auto;
   grid-row: repeat(4, 1fr);
+  background-color: rgb(59, 9, 62);
 }

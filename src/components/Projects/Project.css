@@ -28,8 +28,9 @@
 }
 
 .project-gif-container {
+  text-align: center;
   height: 350px;
-  grid-area: 1 / 1 / 4 / 3;
+  grid-area: 1 / 1 / 4 / 2;
   
 }
 
@@ -42,10 +43,11 @@
 }
 
 .project-container {
-  border: solid 1px black;
   display: grid;
   margin: auto;
   width: 100%;
   grid-template-columns: auto;
   grid-row: repeat(4, 1fr);
+  background-color: rgb(9, 9, 62);
+  
 }

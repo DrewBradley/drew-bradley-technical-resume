@@ -1,5 +1,4 @@
 .header-container {
-  padding: 2%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,20 +24,29 @@
   text-decoration: none;
   padding: 2%;
   font-weight: 800;
-  border: solid 1px antiquewhite;
-  border-radius: 10px;
+  /* border: solid 1px antiquewhite; */
+  border-radius: 10px 10px 0 0;
   color: antiquewhite;
-  background-color: rgb(9, 9, 62);
-  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5)
-  ;
+  box-shadow: 0px -4px 10px 5px rgba(0,0,0,0.5);
   transition: 200ms;
+}
+
+.edu {
+  background-color: rgb(62, 14, 9);
+}
+
+.projects {
+  background-color: rgb(9, 9, 62);
+}
+
+.history {
+  background-color: rgb(59, 9, 62);
 }
 
 .nav:hover {
   transition: 200ms;
-  transform: scale(1.1);
-  box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.5)
-  ;
+  /* transform: ; */
+  box-shadow: 0px -4px 10px 1px rgba(0,0,0,0.5);
 }
 
 .contact-deet {
