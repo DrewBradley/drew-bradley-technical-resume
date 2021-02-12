@@ -4,8 +4,7 @@ import Header from "./Header/Header"
 import History from "./History/History"
 import ProjectContainer from "./Projects/ProjectContainer"
 import Skills from "./Skills/Skills"
-import { Route, Link } from 'react-router-dom';
-import Project from "./Projects/Project";
+import { Route } from 'react-router-dom';
 
 const App = () => {
   return (

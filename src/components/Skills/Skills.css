@@ -1,7 +1,9 @@
 .skills {
   text-align: center;
   background-color: rgb(210, 210, 210);
-  height: 100vh;
+  width: 100%;
+  /* height: auto; */
+  /* min-height: 100%; */
 }
 
 .tech-container {
@@ -23,6 +25,10 @@
 
 .tech-logo {
   height: 50px;
+}
+
+.edu-container {
+  background-color: rgb(210, 210, 210);
 }
 
 .school {
@@ -52,16 +58,18 @@
   .tech-box {
     display: grid;
     margin: 2%;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .skills {
-    height: 90vh;
+    /* height: 100vh; */
+    /* min-height: 100%; */
   }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 600px) {
   .skills {
-    height: 80vh;
+    /* height: 80vh;
+    min-height: 100%; */
   }
 }

@@ -4,6 +4,8 @@ import js from "../src/components/Skills/logos/js-logo.png"
 import chai from "../src/components/Skills/logos/mocha-chai-logo.png"
 import node from "../src/components/Skills/logos/nodejs-logo.png"
 import react from "../src/components/Skills/logos/react-logo.png"
+import express from "../src/components/Skills/logos/express-logo.png"
+import cypress from "../src/components/Skills/logos/cypress-logo-.png"
 
 const contactInfo = [
   {email: "williamandrewb@gmail.com",
@@ -39,11 +41,17 @@ const techData = [
   name: "Git",
   img: git},
   {id: 5,
-  name: "NodeJS",
+  name: "Node.js",
   img: node},
   {id: 6,
   name: "Mocha & Chai",
   img: chai},
+  {id: 7,
+  name: "Express.js",
+  img: express},
+  {id: 8,
+  name: "Cypress.io",
+  img: cypress},
 ]
 
 const projectData = [
@@ -54,9 +62,13 @@ const projectData = [
   gif: "https://media.giphy.com/media/TM8frZhZYu7Is9p7JL/giphy.gif"},
   {id: 2,
   name: "My Record Shelf",
-  description: "I love records, so I built this application to show my love! Using React I built this app in under 48 hours. I made calls to the Discogs API, where a catalogue of my record collect is stored, then used conditional rendering to display 50 albums at a time. This project taught me how to navigate difficult APIs and use authentication to access the data I needed.",
+  description: "I love records, so I built this application to show my love! Using React I built this app in under 48 hours. I made calls to the Discogs API, where a catalogue of my record collection is stored, then used conditional rendering to display 50 albums at a time. This project taught me how to navigate difficult APIs and use authentication to access the data I needed.",
   deployed: "https://drewbradley.github.io/record-shelf/", github: "https://github.com/DrewBradley/record-shelf", gif: "https://media.giphy.com/media/XfaOnpl2BNCH4EQaV7/giphy.gif"},
-  {id: 3,
+  {id: 4,
+  name: "Stik-e-Note",
+  description: "Keep track of all your thought with this simple React-based note pad app! To get a better understanding of React lifecycles, I decided to utilize localStorage to cache user's input, so that data would persist through page loads, and refreshing.",
+  deployed: "https://drewbradley.github.io/stik-e-notes/", github: "https://github.com/DrewBradley/stik-e-notes", gif: "https://media.giphy.com/media/2bqZqdcbi0ku9YmMSb/giphy.gif"},
+  {id: 4,
   name: "Star Wars Gifs",
   description: "These are not the gifs you're looking for. Or are they? This app was built with React and pulled information from 'swapi', the Star Wars API, and the GIPHY API. I was able to explore React component lifecycles in order to render a 'gif' that relates to a given Star Wars character.",
   deployed: "https://drewbradley.github.io/star-wars-gifs/", github: "https://github.com/DrewBradley/star-wars-gifs", gif: "https://media.giphy.com/media/oRN4jLMJjHdSt4Gc5U/giphy.gif"}
@@ -66,23 +78,23 @@ const workData = [
   {id: 1,
   name: "Turing School of Software and Design",
   date: "08/2020 - present",
-  description: ""},
+  description: "While attending Turing School of Software and Design I designed and built dozens of application using technologies such as HTML, CSS and JavaScript.  I also used React to build a number of applications. I learned how to use these skills to better help people, and bring technology to everyone."},
   {id: 2,
   name: "Avanti Music Academy",
   date: "11/2012 – 01/2020",
-  description: "Instruct students in guitar, voice, piano and ukulele; Organize events and concerts; Coordinate contract teachers; Manage customer relationship via social media, email, and other sources "},
+  description: "Though my initial role at Avanti Music Academy was to instruct students in guitar, voice, piano and ukulele, when I became an owner and administrator, I took on many more responsibilities. These included: organizing events and concerts, coordinating contract teachers, and managing customer relationship via social media, email, and other sources."},
   {id: 3,
   name: "Songs for Seeds",
   date: "08/2018 – 12/2019",
-  description: "Accompany an educational children’s class on keyboard, guitar and vocals. Trained in New York City at the Appleseeds Headquarters."},
+  description: "Education takes many forms, and at Songs for Seeds, education is presented through music. I accompanied an educational children’s class on keyboard, guitar and vocals. To begin working with the program I trained in New York City at the Appleseeds Headquarters."},
   {id: 4,
   name: "Denver Language School",
   date: "05/2015 – 05/2017",
-  description: "Instruct third, fourth, and fifth grade music classes and middle school choir. Programmed two concerts per semester for each class."},
+  description: "I instructed third, fourth, and fifth grade music classes and middle school choir, and programmed two concerts per semester for each class. I helped grow the music program by allowing students to have a say in the music they were learning."},
   {id: 4,
   name: "SkyView Academy",
   date: "01/2015 – 05/2015",
-  description: "Instruct lessons primarily in music, history, French. Long term sub for 2+ months in high school French. (Spring of 2015)"},
+  description: "Instruct lessons primarily in music, history, French. I was the long term sub for 2+ months in high school French. (Spring of 2015)"},
 ]
 
 export { contactInfo, schoolData, techData, projectData, workData };
