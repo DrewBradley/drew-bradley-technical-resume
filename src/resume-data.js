@@ -4,7 +4,7 @@ import js from "../src/components/Skills/logos/js-logo.png"
 import chai from "../src/components/Skills/logos/mocha-chai-logo.png"
 import node from "../src/components/Skills/logos/nodejs-logo.png"
 import react from "../src/components/Skills/logos/react-logo.png"
-import express from "../src/components/Skills/logos/express-logo.png"
+import redux from "../src/components/Skills/logos/redux-logo.png"
 import cypress from "../src/components/Skills/logos/cypress-logo-.png"
 
 const contactInfo = [
@@ -47,8 +47,8 @@ const techData = [
   name: "Mocha & Chai",
   img: chai},
   {id: 7,
-  name: "Express.js",
-  img: express},
+  name: "Redux",
+  img: redux},
   {id: 8,
   name: "Cypress.io",
   img: cypress},
