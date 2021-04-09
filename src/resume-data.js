@@ -9,9 +9,8 @@ import cypress from "../src/components/Skills/logos/cypress-logo-.png"
 
 const contactInfo = [
   {email: "williamandrewb@gmail.com",
-  phone: "970-778-5061",
   github: "https://github.com/DrewBradley",
-  linkedin: "https://www.linkedin.com/in/drew-bradley-46a80918b/"
+  linkedin: "https://www.linkedin.com/in/drew-bradley/"
   }
 ]
 
