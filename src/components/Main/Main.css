@@ -1,0 +1,17 @@
+.Main {
+  display: grid;
+  margin: auto;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-row: repeat(4, 1fr);
+  background-color: rgb(145, 145, 145);
+}
+
+.BioCard {
+  display: grid;
+  margin: auto;
+  width: 95%;
+  grid-template-columns: auto;
+  grid-row: repeat(4, 1fr);
+}
+

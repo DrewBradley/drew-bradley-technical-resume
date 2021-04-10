@@ -106,4 +106,10 @@ const workData = [
   description: "Instruct lessons primarily in music, history, French. I was the long term sub for 2+ months in high school French. (Spring of 2015)"},
 ]
 
-export { contactInfo, schoolData, techData, projectData, workData };
+const bio =
+  {id: 1,
+  name: "Turing School of Software and Design",
+  date: "08/2020 - present",
+  description: "While attending Turing School of Software and Design I designed and built dozens of application using technologies such as HTML, CSS and JavaScript.  I also used React to build a number of applications. I learned how to use these skills to better help people, and bring technology to everyone."}
+
+export { contactInfo, schoolData, techData, projectData, workData, bio };
