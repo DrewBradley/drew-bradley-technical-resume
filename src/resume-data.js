@@ -6,6 +6,7 @@ import node from "../src/components/Skills/logos/nodejs-logo.png"
 import react from "../src/components/Skills/logos/react-logo.png"
 import redux from "../src/components/Skills/logos/redux-logo.png"
 import cypress from "../src/components/Skills/logos/cypress-logo-.png"
+import headshot from '../src/headshot.jpg'
 
 const contactInfo = [
   {email: "williamandrewb@gmail.com",
@@ -60,20 +61,25 @@ const projectData = [
   deployed: "https://song-starter.herokuapp.com/", github: "https://github.com/DrewBradley/song-starter",
   gif: "https://media.giphy.com/media/MA7imX21FSCyIuMw9j/giphy.gif"},
   {id: 2,
-  name: "Songwriter App",
-  description: "Using vanilla javascript, this application allows users to generate a chord progression. Users can select a key and mode from the drop down menus. Users can also listen to the chords by pressing and holding the chord display. This was one of my first self-guided projects, and was completed in about 4 days.",
-  deployed: "https://drewbradley.github.io/SongwriterApp/", github: "https://github.com/DrewBradley/SongwriterApp",
-  gif: "https://media.giphy.com/media/TM8frZhZYu7Is9p7JL/giphy.gif"},
-  {id: 3,
   name: "Monstronomicon",
   description: "In the Monstronomicon you can search for your favorite monsters by name, or you can filter all 332 SRD monsters by challenge rating. Choose a monster and read its stats - if you like what you see, add that monster to your ongoing Encounter. This app was built in one week during mod3 at Turing to this spec. We chose to learn Redux and continue building on our knowledge of React, Cypress, and React Router. We chose the dnd5e API and focused on the monsters endpoint.",
   deployed: "https://monstronomicon.herokuapp.com/", github: "https://github.com/DrewBradley/dnd-monstronomicon",
   gif: "https://media.giphy.com/media/NCycYdDE8xBCooWJMN/giphy.gif"},
+  {id: 3,
+  name: "Grouch Potato",
+  description: "Built in under two weeks, Grouch Potato was built using the React framework, and tested with Cypress.io. Users can scroll through a thumbnails of all movies, or usee the search function to find a specific movie by title. When users click on a movie thumbnail, they are brought to page that displays movie details about the specific movies.",
+  deployed: "http://ugliest-servant.surge.sh/", github: "https://github.com/DrewBradley/rancid-tomatillos",
+  gif: "https://media.giphy.com/media/TB3YXijR62TMYMXxSy/giphy.gif"},
   {id: 4,
+  name: "Songwriter App",
+  description: "Using vanilla javascript, this application allows users to generate a chord progression. Users can select a key and mode from the drop down menus. Users can also listen to the chords by pressing and holding the chord display. This was one of my first self-guided projects, and was completed in about 4 days.",
+  deployed: "https://drewbradley.github.io/SongwriterApp/", github: "https://github.com/DrewBradley/SongwriterApp",
+  gif: "https://media.giphy.com/media/TM8frZhZYu7Is9p7JL/giphy.gif"},
+  {id: 5,
   name: "My Record Shelf",
   description: "I love records, so I built this application to show my love! Using React I built this app in under 48 hours. I made calls to the Discogs API, where a catalogue of my record collection is stored, then used conditional rendering to display 50 albums at a time. This project taught me how to navigate difficult APIs and use authentication to access the data I needed.",
   deployed: "https://drewbradley.github.io/record-shelf/", github: "https://github.com/DrewBradley/record-shelf", gif: "https://media.giphy.com/media/XfaOnpl2BNCH4EQaV7/giphy.gif"},
-  {id: 5,
+  {id: 6,
   name: "Stik-e-Note",
   description: "Keep track of all your thought with this simple React-based note pad app! To get a better understanding of React lifecycles, I decided to utilize localStorage to cache user's input, so that data would persist through page loads, and refreshing.",
   deployed: "https://drewbradley.github.io/stik-e-notes/", github: "https://github.com/DrewBradley/stik-e-notes", gif: "https://media.giphy.com/media/2bqZqdcbi0ku9YmMSb/giphy.gif"},
@@ -107,9 +113,9 @@ const workData = [
 ]
 
 const bio =
-  {id: 1,
-  name: "Turing School of Software and Design",
-  date: "08/2020 - present",
-  description: "While attending Turing School of Software and Design I designed and built dozens of application using technologies such as HTML, CSS and JavaScript.  I also used React to build a number of applications. I learned how to use these skills to better help people, and bring technology to everyone."}
+  {image: headshot,
+  name: "Drew Bradley",
+  title: "Software Developer",
+  description: "I am an experienced small business owner with a demonstrated history of working in the music industry. After years of running my own small business, I transitioned to programming so that I could better leverage my skills as an educator and administrator to reach more people. My work in software development has allowed me to use my creativity to solve problems that I previously thought of as being unsolvable. I am a strong business development professional with a Bachelor's degree from the University of Denver. I love music, food, and enjoying all of what Colorado has to offer!"}
 
 export { contactInfo, schoolData, techData, projectData, workData, bio };

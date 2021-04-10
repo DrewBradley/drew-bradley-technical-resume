@@ -11,8 +11,9 @@ const Main = (props) => {
   return(
     <div className="Main">
       <div className="BioCard">
-        <img />
+        <img className="headshot" src={ bio.image }/>
         <article>
+          <h1>I am {bio.name}, and I am a {bio.title}!</h1>
           { bio.description }
         </article>
       </div>

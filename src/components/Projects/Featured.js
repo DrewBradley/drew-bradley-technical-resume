@@ -1,10 +1,9 @@
 import React from "react"
 import "./Project.css"
 
-const Project = (props) => {
+const Featured = (props) => {
   return(
-    <details className="project">
-      <summary>{props.data.name}</summary>
+    <div className="project">
         <a 
           className="project-gif-container" 
           href={props.data.deployed} 
@@ -32,8 +31,8 @@ const Project = (props) => {
           rel="noreferrer">GitHub Repository
         </a></p>
       </div>
-    </details>
+    </div>
   )
 }
 
-export default Project
+export default Featured
