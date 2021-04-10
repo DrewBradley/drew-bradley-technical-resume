@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/drew-bradley-technical-resume/static/css/main.1ec770e9.chunk.css",
-    "main.js": "/drew-bradley-technical-resume/static/js/main.fc212b5e.chunk.js",
-    "main.js.map": "/drew-bradley-technical-resume/static/js/main.fc212b5e.chunk.js.map",
+    "main.css": "/drew-bradley-technical-resume/static/css/main.9ab64718.chunk.css",
+    "main.js": "/drew-bradley-technical-resume/static/js/main.99ea3644.chunk.js",
+    "main.js.map": "/drew-bradley-technical-resume/static/js/main.99ea3644.chunk.js.map",
     "runtime-main.js": "/drew-bradley-technical-resume/static/js/runtime-main.8d8bad8e.js",
     "runtime-main.js.map": "/drew-bradley-technical-resume/static/js/runtime-main.8d8bad8e.js.map",
-    "static/js/2.951b903a.chunk.js": "/drew-bradley-technical-resume/static/js/2.951b903a.chunk.js",
-    "static/js/2.951b903a.chunk.js.map": "/drew-bradley-technical-resume/static/js/2.951b903a.chunk.js.map",
+    "static/js/2.943616ad.chunk.js": "/drew-bradley-technical-resume/static/js/2.943616ad.chunk.js",
+    "static/js/2.943616ad.chunk.js.map": "/drew-bradley-technical-resume/static/js/2.943616ad.chunk.js.map",
     "index.html": "/drew-bradley-technical-resume/index.html",
-    "static/css/main.1ec770e9.chunk.css.map": "/drew-bradley-technical-resume/static/css/main.1ec770e9.chunk.css.map",
-    "static/js/2.951b903a.chunk.js.LICENSE.txt": "/drew-bradley-technical-resume/static/js/2.951b903a.chunk.js.LICENSE.txt",
+    "static/css/main.9ab64718.chunk.css.map": "/drew-bradley-technical-resume/static/css/main.9ab64718.chunk.css.map",
+    "static/js/2.943616ad.chunk.js.LICENSE.txt": "/drew-bradley-technical-resume/static/js/2.943616ad.chunk.js.LICENSE.txt",
     "static/media/index.css": "/drew-bradley-technical-resume/static/media/camping.f386c483.jpg",
     "static/media/cypress-logo-.b55ed9fa.png": "/drew-bradley-technical-resume/static/media/cypress-logo-.b55ed9fa.png",
     "static/media/git-logo.32e1f69f.webp": "/drew-bradley-technical-resume/static/media/git-logo.32e1f69f.webp",
+    "static/media/headshot.4f59dca2.jpg": "/drew-bradley-technical-resume/static/media/headshot.4f59dca2.jpg",
     "static/media/html-css-logo.464892f8.png": "/drew-bradley-technical-resume/static/media/html-css-logo.464892f8.png",
     "static/media/mocha-chai-logo.bc0b1926.png": "/drew-bradley-technical-resume/static/media/mocha-chai-logo.bc0b1926.png",
     "static/media/nodejs-logo.8e341cc0.png": "/drew-bradley-technical-resume/static/media/nodejs-logo.8e341cc0.png",
@@ -21,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8d8bad8e.js",
-    "static/js/2.951b903a.chunk.js",
-    "static/css/main.1ec770e9.chunk.css",
-    "static/js/main.fc212b5e.chunk.js"
+    "static/js/2.943616ad.chunk.js",
+    "static/css/main.9ab64718.chunk.css",
+    "static/js/main.99ea3644.chunk.js"
   ]
 }
