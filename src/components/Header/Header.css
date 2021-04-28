@@ -14,32 +14,27 @@
   justify-content: space-around;
 }
 
-.toolbar {
+.navbar {
+  text-decoration: none;
+  background-color: whitesmoke;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.contact, .navbar {
-  background-color: whitesmoke;
-  text-decoration: none;
-  width: 100%;
-}
-
 .nav {
-  text-decoration: none;
-  width: 25%;
   padding: 2%;
+  margin: 1% auto;
   font-weight: 500;
-  border-radius: 10px 10px 0 0;
-  color: antiquewhite;
-  box-shadow: 0px -4px 10px 5px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  color: black;
   transition: 200ms;
 }
 
 .nav:hover {
+  background-color: rgb(210, 210, 210);
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
   transition: 200ms;
-  box-shadow: 0px -4px 10px 1px rgba(0,0,0,0.5);
 }
 
 .home {
@@ -65,18 +60,6 @@
 a {
   text-decoration: none;
   color: black;
-}
-
-.contact-deet {
-  margin: auto;
-  padding: 2%;
-  border-radius: 5px;
-  transition: 200ms;
-}
-.contact-deet:hover {
-  background-color: rgb(210, 210, 210);
-  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
-  transition: 200ms;
 }
 
 @media screen and (max-width: 600px) {

@@ -5,7 +5,8 @@
   min-height: 100%;
   grid-template-columns: auto;
   grid-row: repeat(4, 1fr);
-  background-color: rgb(145, 145, 145);
+  background-color: hsla(0, 0%, 96%, 0.2);
+  /* background-color: rgb(145, 145, 145); */
 }
 
 .BioCard {
