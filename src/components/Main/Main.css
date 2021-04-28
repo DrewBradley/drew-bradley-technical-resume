@@ -2,6 +2,7 @@
   display: grid;
   margin: auto;
   width: 100%;
+  min-height: 100%;
   grid-template-columns: auto;
   grid-row: repeat(4, 1fr);
   background-color: rgb(145, 145, 145);
@@ -26,6 +27,7 @@
 article {
   margin: 2%;
   padding: 2%;
+  background-color: whitesmoke;
   border: 1px solid black;
   grid-area: 1 / 2 / 3 / 3;
 }

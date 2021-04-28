@@ -18,7 +18,7 @@ const Main = (props) => {
         </article>
       </div>
       { projects[0] }
-      { projects[2] }
+      { projects[1] }
     </div>
   )
 }
