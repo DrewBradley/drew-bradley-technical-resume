@@ -16,6 +16,7 @@ const Contact = () => {
       console.log("Email was successful!")
     } else {
       alert("Invalid email address")
+      return
     }
   }
 
@@ -86,6 +87,7 @@ const Contact = () => {
             autofocus
             required
           />
+          <button onClick={e => handleSubmit(e)}>Send It!</button>
         </section>
         <textarea 
           placeholder="Your message"
@@ -97,7 +99,6 @@ const Contact = () => {
           autofocus
           required
         />
-        <button onClick={e => handleSubmit(e)}>Send It!</button>
       </form>
       <div className="social">
         <p className="contact-deet"><a href={data.github} target="_blank" rel="noreferrer">GitHub</a></p>
