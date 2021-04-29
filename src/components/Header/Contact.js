@@ -6,6 +6,7 @@ const Contact = () => {
   const [first, setFirst] = useState("")
   const [last, setLast] = useState("")
   const [email, setEmail] = useState("")
+  const [subject, setSubject] = useState("")
   const [message, setMessage] = useState("")
 
   const checkEmail = (event) => {
@@ -25,7 +26,7 @@ const Contact = () => {
           placeholder="First Name"
           value={first}
           onChange={(e) => setFirst(e.target.value)}
-          tabindex="1"
+          tabIndex="1"
           required
         />
         <input 
@@ -33,7 +34,7 @@ const Contact = () => {
           placeholder="Last Name"
           value={last}
           onChange={(e) => setLast(e.target.value)}
-          tabindex="2"
+          tabIndex="2"
           required
         />
         <input 
@@ -41,21 +42,33 @@ const Contact = () => {
           placeholder="Email Address"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          tabindex="3"
+          tabIndex="3"
+          required
+        />
+        <input 
+          type="text"
+          placeholder="Subject"
+          value={subject}
+          onChange={(e) => setSubject(e.target.value)}
+          tabIndex="3"
           required
         />
         <textarea 
           placeholder="Your message"
+          cols="50"
+          rows="7"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          tabindex="1"
+          tabIndex="4"
           required
         />
         <button onClick={e => checkEmail(e)}>Send It!</button>
       </form>
-      <p className="contact-deet"><a href={`mailto: ${data.email}`}> {`${data.email}`}</a></p>
-      <p className="contact-deet"><a href={data.github} target="_blank" rel="noreferrer">GitHub</a></p>
-      <p className="contact-deet"><a href={data.linkedin} target="_blank" rel="noreferrer">LinkedIn</a></p>
+      <div className="social">
+        <p className="contact-deet"><a href={`mailto: ${data.email}`}> {`${data.email}`}</a></p>
+        <p className="contact-deet"><a href={data.github} target="_blank" rel="noreferrer">GitHub</a></p>
+        <p className="contact-deet"><a href={data.linkedin} target="_blank" rel="noreferrer">LinkedIn</a></p>
+      </div>
     </section>
   )
 }
