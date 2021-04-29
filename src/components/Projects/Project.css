@@ -1,5 +1,5 @@
 .project {
-  background-color: whitesmoke;
+  background-color: hsla(0, 0%, 96%, 0.8);
   text-align: left;
   margin: 1%;
   padding: 1%;
@@ -15,7 +15,7 @@
   width: 100%;
   grid-template-columns: auto;
   grid-row: repeat(4, 1fr);
-  background-color: whitesmoke;
+  background-color: hsla(0, 0%, 96%, 0.2);
 }
 
 .project-name {
