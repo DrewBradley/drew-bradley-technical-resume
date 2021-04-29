@@ -3,7 +3,7 @@
   flex-direction: column;
   margin: auto;
   width: 100%;
-  background-color: rgb(172, 171, 171);
+  background-color: hsla(0, 0%, 96%, 0.2);
 }
 
 /* @media screen and (max-width: 600px) {
