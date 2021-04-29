@@ -49,42 +49,44 @@ const Contact = () => {
   return(
     <section className="contact">
       <form className="contact-form">
-        <input 
-          type="text"
-          placeholder="First Name"
-          value={first}
-          onChange={(e) => setFirst(e.target.value)}
-          tabIndex="1"
-          autofocus
-          required
-        />
-        <input 
-          type="text"
-          placeholder="Last Name"
-          value={last}
-          onChange={(e) => setLast(e.target.value)}
-          tabIndex="2"
-          autofocus
-          required
-        />
-        <input 
-          type="text"
-          placeholder="Email Address"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          tabIndex="3"
-          autofocus
-          required
-        />
-        <input 
-          type="text"
-          placeholder="Subject"
-          value={subject}
-          onChange={(e) => setSubject(e.target.value)}
-          tabIndex="3"
-          autofocus
-          required
-        />
+        <section className="form-info">
+          <input 
+            type="text"
+            placeholder="First Name"
+            value={first}
+            onChange={(e) => setFirst(e.target.value)}
+            tabIndex="1"
+            autofocus
+            required
+          />
+          <input 
+            type="text"
+            placeholder="Last Name"
+            value={last}
+            onChange={(e) => setLast(e.target.value)}
+            tabIndex="2"
+            autofocus
+            required
+          />
+          <input 
+            type="text"
+            placeholder="Email Address"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            tabIndex="3"
+            autofocus
+            required
+          />
+          <input 
+            type="text"
+            placeholder="Subject"
+            value={subject}
+            onChange={(e) => setSubject(e.target.value)}
+            tabIndex="3"
+            autofocus
+            required
+          />
+        </section>
         <textarea 
           placeholder="Your message"
           cols="50"
@@ -98,7 +100,6 @@ const Contact = () => {
         <button onClick={e => handleSubmit(e)}>Send It!</button>
       </form>
       <div className="social">
-        <p className="contact-deet"><a href={`mailto: ${data.email}`}> {`${data.email}`}</a></p>
         <p className="contact-deet"><a href={data.github} target="_blank" rel="noreferrer">GitHub</a></p>
         <p className="contact-deet"><a href={data.linkedin} target="_blank" rel="noreferrer">LinkedIn</a></p>
       </div>
