@@ -26,6 +26,10 @@
     width: 100%;
     grid-template-rows: 40% 60%;
   }
+
+  .title-name {
+    font-size: 4rem;
+  }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 600px) {

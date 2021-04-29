@@ -27,6 +27,7 @@ const Contact = () => {
           value={first}
           onChange={(e) => setFirst(e.target.value)}
           tabIndex="1"
+          autofocus
           required
         />
         <input 
@@ -35,6 +36,7 @@ const Contact = () => {
           value={last}
           onChange={(e) => setLast(e.target.value)}
           tabIndex="2"
+          autofocus
           required
         />
         <input 
@@ -43,6 +45,7 @@ const Contact = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           tabIndex="3"
+          autofocus
           required
         />
         <input 
@@ -51,15 +54,17 @@ const Contact = () => {
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
           tabIndex="3"
+          autofocus
           required
         />
         <textarea 
           placeholder="Your message"
           cols="50"
-          rows="7"
+          rows="12"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           tabIndex="4"
+          autofocus
           required
         />
         <button onClick={e => checkEmail(e)}>Send It!</button>
