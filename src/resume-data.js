@@ -56,7 +56,7 @@ const techData = [
 
 const projectData = [
   {id: 1,
-  name: "CuraTou",
+  name: "CuraTour",
   description: "Turing School Demo Comp Second Place WINNER! CuraTour is an organizational scheduling app designed for Tour Managers of traveling entertainers. Each user belongs to an organization, every organization can manage multiple tours. Within each tour, events are scheduled. Users can also manage pertinent contacts through the app, and use the app to connect directly to their contacts. CuraTour is here to make your life easier, and to help the show go on.",
   deployed: "https://curatour.herokuapp.com/login", github: "https://github.com/Curatour",
   gif: "https://media.giphy.com/media/yRCKnC1gR4GIE2jZIF/giphy.gif"},
