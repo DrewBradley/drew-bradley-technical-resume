@@ -22,7 +22,7 @@ const schoolData = [
   detail: "While attending the Lamont School of Music at the University of Denver, I studied music performance and business. This prepared me to run a private music school, as well as teach music in public schools throughout Denver."
   },
   {id: 2, name: "Turing School of Software and Design",
-  date: "08/2020 - present",
+  date: "08/2020 - 04/2021",
   detail: "Turing School of Software and Design taught me about JavaScript, and other technologies. But more importantly it trained me how to be an empathetic and hardworking developer."
   }
 ]
