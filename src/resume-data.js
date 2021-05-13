@@ -59,7 +59,7 @@ const projectData = [
   name: "CuraTou",
   description: "Turing School Demo Comp Second Place WINNER! CuraTour is an organizational scheduling app designed for Tour Managers of traveling entertainers. Each user belongs to an organization, every organization can manage multiple tours. Within each tour, events are scheduled. Users can also manage pertinent contacts through the app, and use the app to connect directly to their contacts. CuraTour is here to make your life easier, and to help the show go on.",
   deployed: "https://curatour.herokuapp.com/login", github: "https://github.com/Curatour",
-  gif: "https://media.giphy.com/media/MA7imX21FSCyIuMw9j/giphy.gif"},
+  gif: "https://media.giphy.com/media/yRCKnC1gR4GIE2jZIF/giphy.gif"},
   {id: 2,
   name: "Song Starter",
   description: "Song Starter is a revamped version of the 'Songwriter App' that utilizes React as well as the TonalJS and HowlerJS library. Using a single audio asset and HowlerJS's 'sprite' function I was able to utilize midi integers to trigger the notes associated with each chord. PoetryDB returns a poem, but only displays the first four lines. Users are also able to save songs which will persist through the page being reloaded.",
