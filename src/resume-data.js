@@ -92,7 +92,7 @@ const projectData = [
 const workData = [
   {id: 1,
   name: "Turing School of Software and Design",
-  date: "08/2020 - present",
+  date: "08/2020 - 04/2021",
   description: "While attending Turing School of Software and Design I designed and built dozens of application using technologies such as HTML, CSS and JavaScript.  I also used React to build a number of applications. I learned how to use these skills to better help people, and bring technology to everyone."},
   {id: 2,
   name: "Avanti Music Academy",
